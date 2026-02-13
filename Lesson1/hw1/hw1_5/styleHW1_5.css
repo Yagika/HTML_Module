@@ -1,0 +1,11 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ac1111;
+}

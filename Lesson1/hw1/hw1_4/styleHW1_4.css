@@ -1,0 +1,23 @@
+span {
+    color: #b10303;
+}
+
+p {
+    font-size: 30px;
+    background-color: rgba(211, 211, 211, 0.65);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 5px;
+    width: 55px;
+    font-family: Arial, sans-serif;
+    margin: 5px 0;
+}
+
+h3 {
+    color: #6a6868;
+}
+
+body {
+    padding: 50px 30px;
+}

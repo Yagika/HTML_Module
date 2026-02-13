@@ -1,0 +1,16 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p, h1 {
+    background-color: rgba(247, 240, 237, 0.9);
+    width: 60%;
+    padding: 25px;
+    margin: 50px 100px;
+}
+
+p {
+    font-size: 21px;
+}
