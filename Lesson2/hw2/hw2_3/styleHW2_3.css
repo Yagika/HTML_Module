@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: #556d54;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #d3e0c9;
+    width: 25vh;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+p {
+    line-height: 35px;
+}
+
+.together {
+    margin: 0;
+    line-height: 16px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}

@@ -1,0 +1,21 @@
+body{
+    margin:0;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f9e1c6;
+    height: 250px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #e83223;
+    transition: 0.5s;
+}
+.square:hover{
+    background-color: #7f7f7f;
+    border-radius: 50%;
+    transition: 1s;
+}

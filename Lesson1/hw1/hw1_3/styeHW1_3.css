@@ -13,4 +13,14 @@ p, h1 {
 
 p {
     font-size: 21px;
+    /*text-align: justify;*/
+}
+
+.twoBlocksTogether {
+    margin-bottom: 0;
+}
+
+.secondBlock {
+    margin-top: 0;
+    padding-top: 0;
 }
