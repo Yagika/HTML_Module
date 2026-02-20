@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header, footer, main {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Arial";
+    letter-spacing: 5px;
+}
+
+footer {
+    height: 49vh;
+}
+
+header, main {
+    height: 24vh;
+}
+
+header, footer {
+    justify-content: center;
+    background-color: #3569b4;
+    margin: 1.5vw;
+    font-size: 38px;
+}
+
+.wrapper {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #224475;
+    height: 100%;
+    width: 31vw;
+}
