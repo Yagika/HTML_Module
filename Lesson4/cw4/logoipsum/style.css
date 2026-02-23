@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,40 +8,46 @@
     list-style-type: none;
 }
 
-.w-1070{
+.w-1070 {
     width: 1070px;
     margin: 0 auto;
 }
+
 /*--------------------------------- header ---------------*/
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     font-family: "DM Sans", sans-serif;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
-header nav a{
+
+header nav a {
     color: #696871;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: -0.469px;
 }
-.header__active-link{
+
+.header__active-link {
     color: #19191B;
     border-bottom: 2px solid #5454D4;;
 }
-.header__button{
+
+.header__button {
     width: 211.02px;
     height: 60px;
     border-radius: 10px;
@@ -52,14 +58,16 @@ header nav a{
     font-weight: 700;
     letter-spacing: -0.531px;
 }
+
 /*------------hero-------------*/
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 68px;
 }
-.hero div h1{
+
+.hero div h1 {
     color: #19191B;
     font-family: "DM Sans", sans-serif;
     font-size: 75px;
@@ -68,7 +76,8 @@ header nav a{
     line-height: 77px; /* 102.667% */
     letter-spacing: -2.501px;
 }
-.hero div p{
+
+.hero div p {
     color: #696871;
     font-family: "Mulish", sans-serif;
     font-size: 20px;
@@ -79,7 +88,8 @@ header nav a{
     margin: 30px 0 50px 0;
     width: 409.426px;
 }
-.hero button{
+
+.hero button {
     width: 188.211px;
     height: 60px;
     border-radius: 10px;
@@ -94,10 +104,252 @@ header nav a{
     letter-spacing: -0.531px;
     border: none;
 }
+
 /*--------------brands------------*/
-.brands{
+.brands {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 212px 0 160px 0;
+}
+
+/*--------------2contents------------*/
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content h1 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -1.563px;
+}
+
+.content p {
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    padding: 30px 0;
+}
+
+.content a {
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+    text-decoration: none;
+}
+
+.section_container {
+    width: 459px;
+}
+
+.section_container2 {
+    width: 409px;
+}
+
+.margin-83 {
+    margin-bottom: 83px;
+}
+
+.padding-150 {
+    padding-bottom: 150px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards h3 {
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.75px;
+    padding: 20px;
+}
+
+.cards p {
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+.cards div {
+    width: 307px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 82px;
+}
+
+.choose button {
+    border: none;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.choose h1 {
+    color: #19191B;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+    font-family: "DM Sans", sans-serif;
+    width: 523px;
+}
+
+.button_left {
+    color: #FFF;
+    border-radius: 10px 0 0 10px;
+    background: #5454D4;
+    width: 160px;
+    height: 55px;
+}
+
+.button_right {
+    border-radius: 0 10px 10px 0;
+    background: #F7F7FB;
+    width: 160px;
+    height: 55px;
+}
+
+.button_right span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.button_right span {
+    color: #19191B;
+}
+
+.choose div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F7F7FB;
+    border-radius: 10px;
+    width: 344px;
+    height: 65px;
+    padding: 5px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plan div {
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.plan p {
+    color: #696871;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+
+.plan h1 {
+    color: #1D293F;
+    font-size: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    padding: 22px 0 28px 0;
+}
+
+.plan button {
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    text-decoration: none;
+    width: 285px;
+    height: 60px;
+    margin-top: 36px;
+}
+
+.plan section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan h2 {
+    color: #1D293F;
+    font-size: 28px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+
+#active-plan {
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+    width: 376px;
+    height: 473px;
+}
+
+#active-plan h1{
+    color: #FFF;
+}
+#active-plan h2{
+    color: #FFF;
+}
+#active-plan p {
+    color: rgba(255, 255, 255, 0.70);
+}
+#active-plan button{
+    color: #FFF;
+    background: #9F3919;
+    border: none;
 }
