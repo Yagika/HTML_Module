@@ -22,7 +22,8 @@ footer{
     background-color: #272727;
     color: white;
 }
-h1{
+h2{
+    font-size: 50px;
     margin-top: 0;
     margin-bottom: 50px;
 }
