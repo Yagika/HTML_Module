@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+}
+
+.thirdImage {
+    margin-right: 70px;
+    margin-bottom: -100px;
+    animation: rotating3 7s linear infinite alternate;
+}
+
+.secondImage {
+    margin-left: 250px;
+    margin-bottom: -90px;
+    animation: rotating2 7s linear infinite alternate;
+}
+
+.firstImage {
+    animation: rotating 7s linear infinite alternate;
+}
+
+@keyframes rotating {
+    from {
+        rotate: 0deg;
+        scale: 1.3;
+    }
+    to {
+        rotate: 360deg;
+        scale: 0.8;
+    }
+}
+
+@keyframes rotating2 {
+    from {
+        rotate: 330deg;
+        scale: 0.8;
+
+    }
+    to {
+        rotate: 0deg;
+        scale: 1.3;
+    }
+}
+@keyframes rotating3 {
+    from {
+        rotate: 30deg;
+        scale: 1.5;
+    }
+    to {
+        rotate: 360deg;
+        scale: 1;
+    }
+}
