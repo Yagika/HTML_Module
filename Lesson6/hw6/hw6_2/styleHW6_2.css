@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/*------------------main----------------------*/
+
+.logoInsta {
+    width: 50%;
+}
+
+.wrapper {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(204, 202, 202, 0.7);
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 25vw;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #a2a4a4;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+input:focus {
+    outline: 2px solid #ff21c4;
+}
+.wrapper > a > img {
+    width: 20px;
+}
+button:hover {
+    font-size:16px ;
+    transition: 1s;
+}
+button {
+    width: 25vw;
+    height: 30px;
+    background-color: #33a4ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.wrapper p {
+    color: #6a6868;
+}
+
+.loginFacebook {
+    padding: 20px 0;
+    font-size: 18px;
+    color: #3c5080;
+    margin: 10px;
+}
+.loginFacebook::before {
+    content: "";
+    display: inline-block;
+    background-image: url("images/icons8-facebook-96.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    vertical-align: -5px;
+    transition: transform 0.3s ease;
+}
+.loginFacebook:hover::before {
+    transform: scale(1.2);
+}
+.forgetPassword {
+    color: #6a6868;
+}
+.loginFacebook:hover{
+    color: #4facfe;
+}
+.forgetPassword:hover{
+    color: #4facfe;
+}
+/*------------------footer----------------------*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 30vw;
+    height: 50px;
+    border: 1px solid rgba(204, 202, 202, 0.7);
+    font-weight: bold;
+}
+
+footer a {
+    color: #33a4ff;
+}
+footer a:hover {
+    color: rgba(0, 0, 0, 0.51);
+}
