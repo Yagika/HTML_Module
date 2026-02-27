@@ -1,0 +1,31 @@
+.list1>ul>li:nth-child(even) {
+    color: pink;
+}
+.list2>ul>li:nth-child(odd) {
+    font-size: 22px;
+}
+.list3>ul>li:nth-child(2n+4)::after {
+    content:"!";
+}
+.list4>ul>li:last-child {
+    color: violet;
+}
+.list5>ul>li:first-letter {
+    color: red;
+    font-size: 30px;
+}
+
+#first>ul{
+    padding-inline-start: 20px;
+    list-style: none;
+}
+#first>ul>li::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("images/icons8-cube-96 (1).png");
+    background-size: cover;
+    margin-right: 20px;
+
+}
