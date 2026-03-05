@@ -1,7 +1,11 @@
-body{
+section{
     margin:64px 48px;
-    display: flex;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
     justify-content: center;
+    justify-items: center;
+    align-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 64px 32px;
@@ -9,6 +13,7 @@ body{
     font-weight: 700;
     line-height: 120%;
     text-align: center;
+    height: 100vh;
 }
 div{
     display: flex;
@@ -16,11 +21,11 @@ div{
     flex-direction: column;
     width: 25.83vw;
     margin-bottom: 64px;
-    height: 40vh ;
 }
 h3{
     color:  #000;
     font-size: 20px;
+    height: 25px;
     margin: 20px 0 15px 0;
 }
 p{
@@ -29,6 +34,7 @@ p{
     font-size: 13px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    height: 16px;
 }
 img{
     width: 100%;
