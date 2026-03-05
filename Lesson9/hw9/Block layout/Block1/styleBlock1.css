@@ -1,27 +1,48 @@
-*{
+* {
     margin: 0;
 }
-header, footer{
-    height: 22vh;
+
+.grid-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 27% 46% 27%;
+    grid-template-rows: 22% 26% 30% 22%;
+    grid-template-areas:
+    "header header header"
+    "left top right"
+    "left bottom right"
+    "footer footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+header, footer {
     background: #D9D9D9;
 }
-main{
-    display: flex;
-}
-aside{
-    height: 56vh;
-    width: 27vw;
+
+
+.right {
     background: #C0BDBD;
+    grid-area: right;
 }
-section{
-    height: 56vh;
-    width: 46vw;
-    background: #A4A4A4;
+
+.left {
+    background: #C0BDBD;
+    grid-area: left;
 }
-.top{
-    height: 46.5%;
+
+.top {
     background: #827878;
+    grid-area: top;
 }
-.bottom{
+
+.bottom {
     background: #B7ADAD;
+    grid-area: bottom;
 }

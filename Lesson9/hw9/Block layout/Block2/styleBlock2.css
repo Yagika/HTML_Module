@@ -1,64 +1,81 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-header, footer {
-    height: 20vh;
-    color: #000;
-}
-
-.left div {
-    height: 20vh;
-    width: 73vw;
-}
-
-.right div {
-    height: 30vh;
-    width: 27vw;
-}
-
-p {
     font-family: "Inter", sans-serif;
     font-size: 45px;
     font-weight: 400;
+    text-align: center;
+    text-justify: auto;
 }
 
-main {
+header, footer {
+    color: #000;
+}
+
+.grid-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 73% 27%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+"header header"
+"cont1 spam"
+"cont2 spam"
+"cont3 spam"
+"footer footer";
+}
+
+.spam {
+    grid-area: spam;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+"spam1"
+"spam2";
+}
+
+header {
+    background: #8D8484;
+    grid-area: header;
+}
+
+footer {
+    background: #BDBDBD;
+    grid-area: footer;
+}
+
+.cont1 {
+    background: #776969;
     color: #FFF;
+    grid-area: cont1;
+}
+
+.cont2 {
+    background: #643030;
+    color: #FFF;
+    grid-area: cont2;
+}
+
+.cont3 {
+    background: #441818;
+    color: #FFF;
+    grid-area: cont3;
+}
+
+.spam1 {
+    background: #937575;
+    color: #FFF;
+    grid-area: spam1;
+}
+
+.spam2 {
+    background: #644C4C;
+    color: #FFF;
+    grid-area: spam2;
 }
 
 .display {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-header {
-    background: #8D8484;
-}
-
-footer {
-    background: #BDBDBD;
-}
-
-.cont1 {
-
-    background: #776969;
-}
-
-.cont2 {
-    background: #643030;
-}
-
-.cont3 {
-    background: #441818;
-}
-
-.spam1 {
-    background: #937575;
-}
-
-.spam2 {
-    background: #644C4C;
 }
