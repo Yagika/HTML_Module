@@ -1,0 +1,36 @@
+body{
+    margin:64px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 64px 32px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 25.83vw;
+    margin-bottom: 64px;
+    height: 40vh ;
+}
+h3{
+    color:  #000;
+    font-size: 20px;
+    margin: 20px 0 15px 0;
+}
+p{
+    align-self: stretch;
+    color: #3C3C43;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}

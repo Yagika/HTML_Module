@@ -1,0 +1,13 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    body {
+        flex-direction: row;
+        margin: 32px 16px;
+    }
+
+    div {
+        width: 91.46vw;
+        height: auto;
+        margin-bottom: 40px;
+    }
+}
